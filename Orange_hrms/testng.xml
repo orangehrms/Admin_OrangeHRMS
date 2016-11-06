@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Orange_hrms Suite">
+  <test name="Orange_hrms Test">
+    <classes>
+      <class name="com.orange_hrms.Welcome"/>
+    </classes>
+  </test> <!-- Orange_hrms Test -->
+</suite> <!-- Orange_hrms Suite -->

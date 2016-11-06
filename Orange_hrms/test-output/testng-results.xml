@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Orange_hrms Suite" duration-ms="11353" started-at="2016-11-06T10:39:58Z" finished-at="2016-11-06T10:40:09Z">
+    <groups>
+    </groups>
+    <test name="Orange_hrms Test" duration-ms="11353" started-at="2016-11-06T10:39:58Z" finished-at="2016-11-06T10:40:09Z">
+      <class name="com.orange_hrms.Welcome">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.orange_hrms.Welcome@4501b7af]" name="beforeTest" is-config="true" duration-ms="8431" started-at="2016-11-06T16:09:58Z" finished-at="2016-11-06T16:10:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="googlehome()[pri:0, instance:com.orange_hrms.Welcome@4501b7af]" name="googlehome" duration-ms="2562" started-at="2016-11-06T16:10:07Z" finished-at="2016-11-06T16:10:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googlehome -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.orange_hrms.Welcome@4501b7af]" name="afterTest" is-config="true" duration-ms="328" started-at="2016-11-06T16:10:09Z" finished-at="2016-11-06T16:10:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.orange_hrms.Welcome -->
+    </test> <!-- Orange_hrms Test -->
+  </suite> <!-- Orange_hrms Suite -->
+</testng-results>
