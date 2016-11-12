@@ -1,25 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
+    <line>
+      <![CDATA[onTestSuccess executenull]]>
+    </line>
   </reporter-output>
-  <suite name="Orange_hrms Suite" duration-ms="11353" started-at="2016-11-06T10:39:58Z" finished-at="2016-11-06T10:40:09Z">
+  <suite name="Orange_hrms_Suite" duration-ms="12775" started-at="2016-11-12T17:52:53Z" finished-at="2016-11-12T17:53:06Z">
     <groups>
     </groups>
-    <test name="Orange_hrms Test" duration-ms="11353" started-at="2016-11-06T10:39:58Z" finished-at="2016-11-06T10:40:09Z">
+    <test name="Orange_hrms_Test" duration-ms="12775" started-at="2016-11-12T17:52:53Z" finished-at="2016-11-12T17:53:06Z">
       <class name="com.orange_hrms.Welcome">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.orange_hrms.Welcome@4501b7af]" name="beforeTest" is-config="true" duration-ms="8431" started-at="2016-11-06T16:09:58Z" finished-at="2016-11-06T16:10:07Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.orange_hrms.Welcome@68c4039c]" name="beforeTest" is-config="true" duration-ms="9145" started-at="2016-11-12T23:22:53Z" finished-at="2016-11-12T23:23:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="googlehome()[pri:0, instance:com.orange_hrms.Welcome@4501b7af]" name="googlehome" duration-ms="2562" started-at="2016-11-06T16:10:07Z" finished-at="2016-11-06T16:10:09Z">
+        <test-method status="PASS" signature="googlehome()[pri:0, instance:com.orange_hrms.Welcome@68c4039c]" name="googlehome" duration-ms="3149" started-at="2016-11-12T23:23:02Z" finished-at="2016-11-12T23:23:06Z">
           <reporter-output>
+            <line>
+              <![CDATA[onTestSuccess executenull]]>
+            </line>
           </reporter-output>
         </test-method> <!-- googlehome -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.orange_hrms.Welcome@4501b7af]" name="afterTest" is-config="true" duration-ms="328" started-at="2016-11-06T16:10:09Z" finished-at="2016-11-06T16:10:09Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.orange_hrms.Welcome@68c4039c]" name="afterTest" is-config="true" duration-ms="403" started-at="2016-11-12T23:23:06Z" finished-at="2016-11-12T23:23:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
       </class> <!-- com.orange_hrms.Welcome -->
-    </test> <!-- Orange_hrms Test -->
-  </suite> <!-- Orange_hrms Suite -->
+    </test> <!-- Orange_hrms_Test -->
+  </suite> <!-- Orange_hrms_Suite -->
 </testng-results>
