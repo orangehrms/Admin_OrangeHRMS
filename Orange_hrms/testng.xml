@@ -8,7 +8,10 @@
 
   <test name="Orange_hrms_Test">
     <classes>
-      <class name="com.orange_hrms.Welcome"/>
+      <class name="com.orange_hrms.TestHomePage"/>
+      <class name="com.orange_hrms.TestLoginPage"/>
+      
     </classes>
+    
   </test> <!-- Orange_hrms_Test -->
 </suite> <!-- Orange_hrms_Suite -->

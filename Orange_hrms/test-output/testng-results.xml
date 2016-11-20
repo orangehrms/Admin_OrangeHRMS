@@ -1,31 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
     <line>
-      <![CDATA[onTestSuccess executenull]]>
+      <![CDATA[onTestSuccess execute null]]>
+    </line>
+    <line>
+      <![CDATA[onTestSuccess execute null]]>
     </line>
   </reporter-output>
-  <suite name="Orange_hrms_Suite" duration-ms="12775" started-at="2016-11-12T17:52:53Z" finished-at="2016-11-12T17:53:06Z">
+  <suite name="Orange_hrms_Suite" duration-ms="42567" started-at="2016-11-20T15:08:10Z" finished-at="2016-11-20T15:08:53Z">
     <groups>
     </groups>
-    <test name="Orange_hrms_Test" duration-ms="12775" started-at="2016-11-12T17:52:53Z" finished-at="2016-11-12T17:53:06Z">
-      <class name="com.orange_hrms.Welcome">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.orange_hrms.Welcome@68c4039c]" name="beforeTest" is-config="true" duration-ms="9145" started-at="2016-11-12T23:22:53Z" finished-at="2016-11-12T23:23:02Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="googlehome()[pri:0, instance:com.orange_hrms.Welcome@68c4039c]" name="googlehome" duration-ms="3149" started-at="2016-11-12T23:23:02Z" finished-at="2016-11-12T23:23:06Z">
+    <test name="Orange_hrms_Test" duration-ms="42567" started-at="2016-11-20T15:08:10Z" finished-at="2016-11-20T15:08:53Z">
+      <class name="com.orange_hrms.TestLoginPage">
+        <test-method status="PASS" signature="verfyValidLogin()[pri:0, instance:com.orange_hrms.TestLoginPage@1bce4f0a]" name="verfyValidLogin" duration-ms="21997" started-at="2016-11-20T20:38:31Z" finished-at="2016-11-20T20:38:53Z">
           <reporter-output>
             <line>
-              <![CDATA[onTestSuccess executenull]]>
+              <![CDATA[onTestSuccess execute null]]>
             </line>
           </reporter-output>
-        </test-method> <!-- googlehome -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.orange_hrms.Welcome@68c4039c]" name="afterTest" is-config="true" duration-ms="403" started-at="2016-11-12T23:23:06Z" finished-at="2016-11-12T23:23:06Z">
+        </test-method> <!-- verfyValidLogin -->
+      </class> <!-- com.orange_hrms.TestLoginPage -->
+      <class name="com.orange_hrms.TestHomePage">
+        <test-method status="PASS" signature="verifyHRMSHomePage()[pri:0, instance:com.orange_hrms.TestHomePage@5b275dab]" name="verifyHRMSHomePage" duration-ms="20466" started-at="2016-11-20T20:38:10Z" finished-at="2016-11-20T20:38:31Z">
           <reporter-output>
+            <line>
+              <![CDATA[onTestSuccess execute null]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- afterTest -->
-      </class> <!-- com.orange_hrms.Welcome -->
+        </test-method> <!-- verifyHRMSHomePage -->
+      </class> <!-- com.orange_hrms.TestHomePage -->
     </test> <!-- Orange_hrms_Test -->
   </suite> <!-- Orange_hrms_Suite -->
 </testng-results>
