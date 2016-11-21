@@ -1,0 +1,110 @@
+2016-11-12 23:04:19,190 [main] INFO Log4jConfig - onTest Start--googlehome
+2016-11-12 23:04:22,540 [main] INFO Log4jConfig - googlehome---Test Success
+2016-11-12 23:06:34,847 [main] INFO Log4jConfig - onTest Start--googlehome
+2016-11-12 23:06:35,702 [main] INFO Log4jConfig - googlehome---Test Success
+2016-11-12 23:07:49,540 [main] INFO Log4jConfig - onTest Start--googlehome
+2016-11-12 23:07:52,979 [main] INFO Log4jConfig - googlehome---Test Success
+2016-11-12 23:08:35,266 [main] INFO Log4jConfig - onTest Start--googlehome
+2016-11-12 23:10:43,525 [main] INFO Log4jConfig - onTest Start--googlehome
+2016-11-12 23:10:43,627 [main] INFO Log4jConfig - googlehome---Test Failure
+2016-11-12 23:13:36,502 [main] INFO Log4jConfig - onTest Start--googlehome
+2016-11-12 23:13:36,601 [main] INFO Log4jConfig - googlehome---Test Failure
+2016-11-12 23:13:36,617 [main] INFO Log4jConfig - null---Test Failure
+2016-11-12 23:16:12,921 [main] INFO Log4jConfig - onTest Start--googlehome
+2016-11-12 23:16:13,030 [main] INFO Log4jConfig - googlehome---Test Failure
+2016-11-12 23:16:13,043 [main] INFO Log4jConfig - null---Test Failure
+2016-11-12 23:16:13,058 [main] INFO Log4jConfig - [TestClass name=class com.orange_hrms.Welcome]---Test Failure
+2016-11-12 23:18:38,641 [main] INFO Log4jConfig - onTest Start--googlehome
+2016-11-12 23:18:38,919 [main] INFO Log4jConfig - googlehome---Test Failure
+2016-11-12 23:18:38,934 [main] INFO Log4jConfig - null---Test Failure
+2016-11-12 23:18:38,946 [main] INFO Log4jConfig - [TestClass name=class com.orange_hrms.Welcome]---Test Failure
+2016-11-12 23:18:38,958 [main] INFO Log4jConfig - []---Atribute Test Failure
+2016-11-12 23:20:09,253 [main] INFO Log4jConfig - onTest Start--googlehome
+2016-11-12 23:20:09,383 [main] INFO Log4jConfig - googlehome---Test Failure
+2016-11-12 23:20:09,417 [main] INFO Log4jConfig - null---Test Failure
+2016-11-12 23:20:09,439 [main] INFO Log4jConfig - [TestClass name=class com.orange_hrms.Welcome]---Test Failure
+2016-11-12 23:20:09,465 [main] INFO Log4jConfig - []---Atribute Test Failure
+2016-11-12 23:20:09,493 [main] INFO Log4jConfig - 2---getStatus Test Failure
+2016-11-12 23:23:02,908 [main] INFO Log4jConfig - onTest Start--googlehome
+2016-11-12 23:23:06,071 [main] INFO Log4jConfig - googlehome---Test Success
+2016-11-12 23:23:06,085 [main] INFO Log4jConfig - 1---getStatus Test 
+2016-11-12 23:26:57,899 [main] INFO Log4jConfig - onTest Start--googlehome
+2016-11-12 23:27:01,898 [main] INFO Log4jConfig - googlehome---Test Success
+2016-11-12 23:27:01,947 [main] INFO Log4jConfig - 1---getStatus Test 
+2016-11-12 23:36:21,210 [main] INFO Log4jConfig - onTest Start--googlehome
+2016-11-12 23:36:26,648 [main] INFO Log4jConfig - googlehome---Test Success
+2016-11-12 23:36:26,673 [main] INFO Log4jConfig - 1---getStatus Test 
+2016-11-12 23:48:21,129 [main] INFO Log4jConfig - onTest Start--googlehome
+2016-11-12 23:48:23,825 [main] INFO Log4jConfig - googlehome---Test Success
+2016-11-12 23:48:23,855 [main] INFO Log4jConfig - 1---getStatus Test 
+2016-11-18 17:00:08,699 [main] INFO Log4jConfig - onTest Start--verifyURL
+2016-11-18 17:00:08,806 [main] INFO Log4jConfig - verifyURL---Test Success
+2016-11-18 17:00:08,843 [main] INFO Log4jConfig - 1---getStatus Test 
+2016-11-18 17:04:34,174 [main] INFO Log4jConfig - onTest Start--verifyURL
+2016-11-18 17:04:34,315 [main] INFO Log4jConfig - verifyURL---Test Success
+2016-11-18 17:04:34,519 [main] INFO Log4jConfig - 1---getStatus Test 
+2016-11-19 22:13:09,847 [main] INFO Log4jConfig - onTest Start--verifyURL
+2016-11-19 22:13:09,987 [main] INFO Log4jConfig - verifyURL---Test Success
+2016-11-19 22:13:10,003 [main] INFO Log4jConfig - 1---getStatus Test 
+2016-11-19 22:14:38,874 [main] INFO Log4jConfig - onTest Start--verifyURL
+2016-11-19 22:14:38,970 [main] INFO Log4jConfig - verifyURL---Test Success
+2016-11-19 22:14:38,987 [main] INFO Log4jConfig - 1---getStatus Test 
+2016-11-19 22:19:28,336 [main] INFO Log4jConfig - onTest Start--verifyURL
+2016-11-19 22:19:28,491 [main] INFO Log4jConfig - verifyURL---Test Success
+2016-11-19 22:19:28,514 [main] INFO Log4jConfig - 1---getStatus Test 
+2016-11-20 00:30:26,522 [main] INFO Log4jConfig - Successfully enter into Orange HRMS 
+2016-11-20 00:31:45,617 [main] INFO Log4jConfig - onTest Start--verifyURL
+2016-11-20 00:31:45,716 [main] INFO Log4jConfig - Successfully enter into Orange HRMS 
+2016-11-20 00:31:45,742 [main] INFO Log4jConfig - verifyURL---Test Success
+2016-11-20 00:31:45,758 [main] INFO Log4jConfig - 1---getStatus Test 
+2016-11-20 14:00:56,198 [main] INFO Log4jConfig - onTest Start--verifyHRMSLogo
+2016-11-20 14:01:28,791 [main] INFO Log4jConfig - verifyHRMSLogo---Test Success
+2016-11-20 14:01:28,804 [main] INFO Log4jConfig - 1---getStatus Test 
+2016-11-20 14:01:28,849 [main] INFO Log4jConfig - onTest Start--verfyValidLogin
+2016-11-20 14:02:12,327 [main] INFO Log4jConfig - verfyValidLogin---Test Success
+2016-11-20 14:02:12,345 [main] INFO Log4jConfig - 1---getStatus Test 
+2016-11-20 16:55:03,383 [main] INFO Log4jConfig - onTest Start--verifyHRMSLogo
+2016-11-20 16:55:24,217 [main] INFO Log4jConfig - verifyHRMSLogo---Test Failure
+2016-11-20 16:55:24,245 [main] INFO Log4jConfig - null---Test Failure
+2016-11-20 16:55:24,262 [main] INFO Log4jConfig - [TestClass name=class com.orange_hrms.TestHomePage]---Test Failure
+2016-11-20 16:55:24,477 [main] INFO Log4jConfig - []---Atribute Test Failure
+2016-11-20 16:55:24,508 [main] INFO Log4jConfig - 2---getStatus Test Failure
+2016-11-20 16:55:24,532 [main] INFO Log4jConfig - onTest Start--verfyValidLogin
+2016-11-20 16:55:57,192 [main] INFO Log4jConfig - verfyValidLogin---Test Success
+2016-11-20 16:55:57,253 [main] INFO Log4jConfig - 1---getStatus Test 
+2016-11-20 16:57:57,545 [main] INFO Log4jConfig - onTest Start--verifyHRMSLogo
+2016-11-20 16:58:25,025 [main] INFO Log4jConfig - verifyHRMSLogo---Test Success
+2016-11-20 16:58:25,045 [main] INFO Log4jConfig - 1---getStatus Test 
+2016-11-20 16:58:25,067 [main] INFO Log4jConfig - onTest Start--verfyValidLogin
+2016-11-20 16:58:53,455 [main] INFO Log4jConfig - verfyValidLogin---Test Success
+2016-11-20 16:58:53,483 [main] INFO Log4jConfig - 1---getStatus Test 
+2016-11-20 20:05:56,004 [main] INFO Log4jConfig - onTest Start--verifyHRMSHomePage
+2016-11-20 20:05:56,123 [main] INFO Log4jConfig - verifyHRMSHomePage---Test Failure
+2016-11-20 20:05:56,143 [main] INFO Log4jConfig - null---Test Failure
+2016-11-20 20:05:56,163 [main] INFO Log4jConfig - [TestClass name=class com.orange_hrms.TestHomePage]---Test Failure
+2016-11-20 20:05:56,190 [main] INFO Log4jConfig - []---Atribute Test Failure
+2016-11-20 20:05:56,206 [main] INFO Log4jConfig - 2---getStatus Test Failure
+2016-11-20 20:05:56,228 [main] INFO Log4jConfig - onTest Start--verfyValidLogin
+2016-11-20 20:05:56,262 [main] INFO Log4jConfig - verfyValidLogin---Test Failure
+2016-11-20 20:05:56,285 [main] INFO Log4jConfig - null---Test Failure
+2016-11-20 20:05:56,311 [main] INFO Log4jConfig - [TestClass name=class com.orange_hrms.TestLoginPage]---Test Failure
+2016-11-20 20:05:56,332 [main] INFO Log4jConfig - []---Atribute Test Failure
+2016-11-20 20:05:56,352 [main] INFO Log4jConfig - 2---getStatus Test Failure
+2016-11-20 20:28:03,252 [main] INFO Log4jConfig - onTest Start--verifyHRMSHomePage
+2016-11-20 20:28:22,421 [main] INFO Log4jConfig - verifyHRMSHomePage---Test Success
+2016-11-20 20:28:22,436 [main] INFO Log4jConfig - 1---getStatus Test 
+2016-11-20 20:28:22,471 [main] INFO Log4jConfig - onTest Start--verfyValidLogin
+2016-11-20 20:28:45,258 [main] INFO Log4jConfig - verfyValidLogin---Test Success
+2016-11-20 20:28:45,272 [main] INFO Log4jConfig - 1---getStatus Test 
+2016-11-20 20:38:10,817 [main] INFO Log4jConfig - onTest Start--verifyHRMSHomePage
+2016-11-20 20:38:31,143 [main] INFO Log4jConfig - verifyHRMSHomePage---Test Success
+2016-11-20 20:38:31,164 [main] INFO Log4jConfig - 1---getStatus Test 
+2016-11-20 20:38:31,192 [main] INFO Log4jConfig - onTest Start--verfyValidLogin
+2016-11-20 20:38:53,186 [main] INFO Log4jConfig - verfyValidLogin---Test Success
+2016-11-20 20:38:53,201 [main] INFO Log4jConfig - 1---getStatus Test 
+2016-11-20 20:39:19,820 [main] INFO Log4jConfig - onTest Start--verifyHRMSHomePage
+2016-11-20 20:39:41,488 [main] INFO Log4jConfig - verifyHRMSHomePage---Test Success
+2016-11-20 20:39:41,508 [main] INFO Log4jConfig - 1---getStatus Test 
+2016-11-20 20:39:41,538 [main] INFO Log4jConfig - onTest Start--verfyValidLogin
+2016-11-20 20:40:06,535 [main] INFO Log4jConfig - verfyValidLogin---Test Success
+2016-11-20 20:40:06,556 [main] INFO Log4jConfig - 1---getStatus Test 
