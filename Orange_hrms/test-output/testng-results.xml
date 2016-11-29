@@ -1,6 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="2" passed="2">
+<testng-results skipped="0" failed="1" total="9" passed="8">
   <reporter-output>
+    <line>
+      <![CDATA[onTestSuccess execute null]]>
+    </line>
+    <line>
+      <![CDATA[onTestFailure executenull]]>
+    </line>
+    <line>
+      <![CDATA[onTestSuccess execute null]]>
+    </line>
+    <line>
+      <![CDATA[onTestSuccess execute null]]>
+    </line>
+    <line>
+      <![CDATA[onTestSuccess execute null]]>
+    </line>
+    <line>
+      <![CDATA[onTestSuccess execute null]]>
+    </line>
+    <line>
+      <![CDATA[onTestSuccess execute null]]>
+    </line>
     <line>
       <![CDATA[onTestSuccess execute null]]>
     </line>
@@ -8,27 +29,174 @@
       <![CDATA[onTestSuccess execute null]]>
     </line>
   </reporter-output>
-  <suite name="Orange_hrms_Suite" duration-ms="42567" started-at="2016-11-20T15:08:10Z" finished-at="2016-11-20T15:08:53Z">
+  <suite name="Orange_hrms_Suite" duration-ms="48262" started-at="2016-11-29T13:41:40Z" finished-at="2016-11-29T13:42:28Z">
     <groups>
     </groups>
-    <test name="Orange_hrms_Test" duration-ms="42567" started-at="2016-11-20T15:08:10Z" finished-at="2016-11-20T15:08:53Z">
+    <test name="Orange_hrms_Test" duration-ms="48262" started-at="2016-11-29T13:41:40Z" finished-at="2016-11-29T13:42:28Z">
       <class name="com.orange_hrms.TestLoginPage">
-        <test-method status="PASS" signature="verfyValidLogin()[pri:0, instance:com.orange_hrms.TestLoginPage@1bce4f0a]" name="verfyValidLogin" duration-ms="21997" started-at="2016-11-20T20:38:31Z" finished-at="2016-11-20T20:38:53Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.orange_hrms.TestLoginPage@7d9d1a19]" name="setup" is-config="true" duration-ms="20035" started-at="2016-11-29T19:11:40Z" finished-at="2016-11-29T19:12:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verfyValidLogin()[pri:0, instance:com.orange_hrms.TestLoginPage@7d9d1a19]" name="verfyValidLogin" duration-ms="7331" started-at="2016-11-29T19:12:20Z" finished-at="2016-11-29T19:12:28Z">
           <reporter-output>
             <line>
               <![CDATA[onTestSuccess execute null]]>
             </line>
           </reporter-output>
         </test-method> <!-- verfyValidLogin -->
+        <test-method status="PASS" signature="quitb()[pri:0, instance:com.orange_hrms.TestLoginPage@7d9d1a19]" name="quitb" is-config="true" duration-ms="451" started-at="2016-11-29T19:12:28Z" finished-at="2016-11-29T19:12:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitb -->
       </class> <!-- com.orange_hrms.TestLoginPage -->
       <class name="com.orange_hrms.TestHomePage">
-        <test-method status="PASS" signature="verifyHRMSHomePage()[pri:0, instance:com.orange_hrms.TestHomePage@5b275dab]" name="verifyHRMSHomePage" duration-ms="20466" started-at="2016-11-20T20:38:10Z" finished-at="2016-11-20T20:38:31Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.orange_hrms.TestHomePage@77caeb3e]" name="setup" is-config="true" duration-ms="16270" started-at="2016-11-29T19:12:00Z" finished-at="2016-11-29T19:12:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyHRMSHomePage()[pri:0, instance:com.orange_hrms.TestHomePage@77caeb3e]" name="verifyHRMSHomePage" duration-ms="714" started-at="2016-11-29T19:12:16Z" finished-at="2016-11-29T19:12:17Z">
           <reporter-output>
             <line>
               <![CDATA[onTestSuccess execute null]]>
             </line>
           </reporter-output>
         </test-method> <!-- verifyHRMSHomePage -->
+        <test-method status="FAIL" signature="verifyLogo()[pri:0, instance:com.orange_hrms.TestHomePage@77caeb3e]" name="verifyLogo" duration-ms="107" started-at="2016-11-29T19:12:17Z" finished-at="2016-11-29T19:12:17Z">
+          <exception class="org.openqa.selenium.InvalidSelectorException">
+            <message>
+              <![CDATA[The given selector //img[@src='/webres_5807100ccf9d88.89058111/themes/default/images/login/logo.png' is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: Unable to locate an element with the xpath expression //img[@src='/webres_5807100ccf9d88.89058111/themes/default/images/login/logo.png' because of the following error:
+SyntaxError: The expression is not a legal expression.
+Command duration or timeout: 41 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'srinivas', ip: '192.168.70.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=32.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: f579192c-2ad4-469c-b3e2-e052f254d894
+*** Element info: {Using=xpath, value=//img[@src='/webres_5807100ccf9d88.89058111/themes/default/images/login/logo.png'}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.InvalidSelectorException: The given selector //img[@src='/webres_5807100ccf9d88.89058111/themes/default/images/login/logo.png' is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: Unable to locate an element with the xpath expression //img[@src='/webres_5807100ccf9d88.89058111/themes/default/images/login/logo.png' because of the following error:
+SyntaxError: The expression is not a legal expression.
+Command duration or timeout: 41 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'srinivas', ip: '192.168.70.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=32.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: f579192c-2ad4-469c-b3e2-e052f254d894
+*** Element info: {Using=xpath, value=//img[@src='/webres_5807100ccf9d88.89058111/themes/default/images/login/logo.png'}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:449)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:59)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:37)
+	at com.sun.proxy.$Proxy8.isDisplayed(Unknown Source)
+	at com.page_opjects.HomePage.Logo(HomePage.java:50)
+	at com.orange_hrms.TestHomePage.verifyLogo(TestHomePage.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:152)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)
+Caused by: org.openqa.selenium.InvalidSelectorException: The given selector //img[@src='/webres_5807100ccf9d88.89058111/themes/default/images/login/logo.png' is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: Unable to locate an element with the xpath expression //img[@src='/webres_5807100ccf9d88.89058111/themes/default/images/login/logo.png' because of the following error:
+SyntaxError: The expression is not a legal expression.
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'srinivas', ip: '192.168.70.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_65'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.annotateInvalidSelectorError_(file:///C:/WINDOWS/TEMP/anonymous7879397725415042978webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10245)
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/WINDOWS/TEMP/anonymous7879397725415042978webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10276)
+	at <anonymous class>.FirefoxDriver.prototype.findElement(file:///C:/WINDOWS/TEMP/anonymous7879397725415042978webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10280)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/WINDOWS/TEMP/anonymous7879397725415042978webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12274)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///C:/WINDOWS/TEMP/anonymous7879397725415042978webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12279)
+	at <anonymous class>.DelayedCommand.prototype.execute/<(file:///C:/WINDOWS/TEMP/anonymous7879397725415042978webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12221)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.InvalidSelectorException -->
+          <reporter-output>
+            <line>
+              <![CDATA[onTestFailure executenull]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyLogo -->
+        <test-method status="PASS" signature="verifyLoginImmage()[pri:0, instance:com.orange_hrms.TestHomePage@77caeb3e]" name="verifyLoginImmage" duration-ms="710" started-at="2016-11-29T19:12:17Z" finished-at="2016-11-29T19:12:18Z">
+          <reporter-output>
+            <line>
+              <![CDATA[onTestSuccess execute null]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyLoginImmage -->
+        <test-method status="PASS" signature="verifyLinkText()[pri:0, instance:com.orange_hrms.TestHomePage@77caeb3e]" name="verifyLinkText" duration-ms="395" started-at="2016-11-29T19:12:18Z" finished-at="2016-11-29T19:12:18Z">
+          <reporter-output>
+            <line>
+              <![CDATA[onTestSuccess execute null]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyLinkText -->
+        <test-method status="PASS" signature="verifyLinkedinIcon()[pri:0, instance:com.orange_hrms.TestHomePage@77caeb3e]" name="verifyLinkedinIcon" duration-ms="390" started-at="2016-11-29T19:12:19Z" finished-at="2016-11-29T19:12:19Z">
+          <reporter-output>
+            <line>
+              <![CDATA[onTestSuccess execute null]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyLinkedinIcon -->
+        <test-method status="PASS" signature="verifyTwitIcon()[pri:0, instance:com.orange_hrms.TestHomePage@77caeb3e]" name="verifyTwitIcon" duration-ms="155" started-at="2016-11-29T19:12:19Z" finished-at="2016-11-29T19:12:19Z">
+          <reporter-output>
+            <line>
+              <![CDATA[onTestSuccess execute null]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyTwitIcon -->
+        <test-method status="PASS" signature="verifyFacebookIcon()[pri:0, instance:com.orange_hrms.TestHomePage@77caeb3e]" name="verifyFacebookIcon" duration-ms="217" started-at="2016-11-29T19:12:19Z" finished-at="2016-11-29T19:12:20Z">
+          <reporter-output>
+            <line>
+              <![CDATA[onTestSuccess execute null]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyFacebookIcon -->
+        <test-method status="PASS" signature="verifyYouTubeIcon()[pri:0, instance:com.orange_hrms.TestHomePage@77caeb3e]" name="verifyYouTubeIcon" duration-ms="168" started-at="2016-11-29T19:12:20Z" finished-at="2016-11-29T19:12:20Z">
+          <reporter-output>
+            <line>
+              <![CDATA[onTestSuccess execute null]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyYouTubeIcon -->
+        <test-method status="PASS" signature="quitb()[pri:0, instance:com.orange_hrms.TestHomePage@77caeb3e]" name="quitb" is-config="true" duration-ms="331" started-at="2016-11-29T19:12:20Z" finished-at="2016-11-29T19:12:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitb -->
       </class> <!-- com.orange_hrms.TestHomePage -->
     </test> <!-- Orange_hrms_Test -->
   </suite> <!-- Orange_hrms_Suite -->

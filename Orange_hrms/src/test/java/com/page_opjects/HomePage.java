@@ -1,49 +1,83 @@
 package com.page_opjects;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.CacheLookup;
+import org.openqa.selenium.support.FindBy;
+
+import com.orange_hrms.utils.Assertion;
+import com.orange_hrms.utils.Log4jConfig;
 
 
 public class HomePage {
 	
 	WebDriver driver;
-	By HRMSLogo = By.xpath("//img[@src='/webres_5807100ccf9d88.89058111/themes/default/images/login/logo.png']");
-	By LoginImmage = By.id("divLoginImageGlow");
-	By OrangeHRMSLinkText = By.linkText("OrangeHRM, Inc");
-	By LinkedinGlyphIcon = By.xpath("//img[@alt='LinkedIn OrangeHRM group']");
-	By FacebookGlyphIcon = By.xpath("//img[@alt='OrangeHRM on Facebook']");
-	By TwitGlyphIcon = By.xpath("//img[@alt='OrangeHRM on twitter']");
-	By YtubeGlyphIcon = By.xpath("//img[@alt='OrangeHRM on youtube']");
+	WebElement element;
+		
+	@FindBy(xpath = "//img[@src='/webres_5807100ccf9d88.89058111/themes/default/images/login/logo.png'")
+	@CacheLookup
+	WebElement HRMSLogo;
+	
+	@FindBy(id = "divLoginImageGlow")
+	@CacheLookup
+	WebElement LoginImmage;
+	
+	@FindBy(linkText = "OrangeHRM, Inc")
+	@CacheLookup
+	WebElement OrangeHRMSLinkText;
+	
+	@FindBy(xpath = "//img[@alt='LinkedIn OrangeHRM group']")
+	@CacheLookup
+	WebElement LinkedinGlyphIcon;
+	
+	@FindBy(xpath = "//img[@alt='OrangeHRM on Facebook']")
+	@CacheLookup
+	WebElement FacebookGlyphIcon;
+	
+	@FindBy(xpath = "//img[@alt='OrangeHRM on twitter']")
+	@CacheLookup
+	WebElement TwitGlyphIcon;
+	
+	@FindBy(xpath = "//img[@alt='OrangeHRM on youtube']")
+	@CacheLookup
+	WebElement YtubeGlyphIcon;
 	
 	public HomePage(WebDriver driver){
 		this.driver = driver;
 	}
 	
-	public void verifyLogo(WebDriver driver) {
-		driver.findElement(HRMSLogo);
-		}
+	public void Logo() {
+		Assertion.assertTrue(HRMSLogo.isDisplayed());
+		Log4jConfig.Logg("HRMS Logo is Displayed");
+	}
 	
-	public void verifyLoginImmage(WebDriver driver){
-		driver.findElement(LoginImmage);
+	public void LoginImmage(){
+		Assertion.assertTrue(LoginImmage.isDisplayed());
+		Log4jConfig.Logg("HRMS Login Immage is Displayed");
 	}
 
-	public void verifyLinkText(WebDriver driver){
-		driver.findElement(OrangeHRMSLinkText);
+	public void LinkText(){
+		Assertion.assertTrue(OrangeHRMSLinkText.isDisplayed());
+		Log4jConfig.Logg("HRMS LinkText is Displayed");
 	}
 	
-	public void verifyLinkedinGlyphIcon(WebDriver driver){
-		driver.findElement(LinkedinGlyphIcon);
+	public void LinkedinGlyphIcon(){
+		Assertion.assertTrue(LinkedinGlyphIcon.isDisplayed());
+		Log4jConfig.Logg("Linkedin Glyph Icon is Displayed");
 	}
 	
-	public void verifyFacebookGlyphIcon(WebDriver driver){
-		driver.findElement(FacebookGlyphIcon);
+	public void FacebookGlyphIcon(){
+		Assertion.assertTrue(FacebookGlyphIcon.isDisplayed());
+		Log4jConfig.Logg("FacebookGlyphIcon is Displayed");
 	}
 	
-	public void verifyTwitGlyphIcon(WebDriver driver){
-		driver.findElement(TwitGlyphIcon);
+	public void TwitGlyphIcon(){
+		Assertion.assertTrue(TwitGlyphIcon.isDisplayed());
+		Log4jConfig.Logg("TwitGlyphIcon is Displayed");
 	}
 	
-	public void verifyYtubeGlyphIcon(WebDriver driver){
-		driver.findElement(YtubeGlyphIcon);
+	public void YtubeGlyphIcon(){
+		Assertion.assertTrue(YtubeGlyphIcon.isDisplayed());
+		Log4jConfig.Logg("YtubeGlyphIcon is Displayed");
 	}
 }

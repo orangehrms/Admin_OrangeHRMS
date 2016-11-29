@@ -2,7 +2,7 @@ package com.orange_hrms;
 
 import org.testng.annotations.Test;
 
-import com.orange_hrms.utils.MultiBrowser;
+//import com.orange_hrms.utils.MultiBrowser;
 
 import org.testng.annotations.BeforeTest;
 import org.openqa.selenium.WebDriver;

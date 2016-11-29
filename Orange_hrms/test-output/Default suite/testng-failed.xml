@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.orange_hrms.TestLoginPage">
+      <class name="com.orange_hrms.TestHomePage">
         <methods>
-          <include name="verfyValidLogin"/>
+          <include name="quitb"/>
+          <include name="verifyLogo"/>
+          <include name="setup"/>
         </methods>
-      </class> <!-- com.orange_hrms.TestLoginPage -->
+      </class> <!-- com.orange_hrms.TestHomePage -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -1,28 +1,41 @@
 package com.page_opjects;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.CacheLookup;
+import org.openqa.selenium.support.FindBy;
 
 public class LoginPage {
 
-	public WebDriver driver;
-	By username = By.id("txtUsername");
-	By Password = By.id("txtPassword");
-	By longinbtn = By.id("btnLogin");
-	
-	public LoginPage(WebDriver driver){
+	WebDriver driver;
+	WebElement element;
+
+	public LoginPage(WebDriver driver) {
 		this.driver = driver;
 	}
+
 	
-	public void AdminUserName(WebDriver driver){
-		driver.findElement(username).sendKeys("Admin");
+	@FindBy(id = "txtUsername")
+	@CacheLookup
+	WebElement username;
+	
+	@FindBy(id = "txtPassword")
+	@CacheLookup
+	WebElement password;
+	
+	@FindBy(id = "btnLogin")
+	@CacheLookup
+	WebElement Loginbtn;
+	
+	public void AdminUserName(String uname) {
+		username.sendKeys(uname);
 	}
-	
-	public void AdminPassword(WebDriver driver){
-		driver.findElement(Password).sendKeys("welc0meadm1n");
+
+	public void AdminPassword(String pwd) {
+		password.sendKeys(pwd);
 	}
-	
-	public void AdminLoginBtn(WebDriver driver){
-		driver.findElement(longinbtn).click();
+
+	public void AdminLoginBtn() {
+		Loginbtn.click();
 	}
 }

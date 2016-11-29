@@ -8,14 +8,14 @@
     <classes>
       <class name="com.orange_hrms.TestHomePage">
         <methods>
-          <include name="verifyHRMSHomePage"/>
-          <include name="quit"/>
+          <include name="quitb"/>
+          <include name="verifyLogo"/>
           <include name="setup"/>
         </methods>
       </class> <!-- com.orange_hrms.TestHomePage -->
       <class name="com.orange_hrms.TestLoginPage">
         <methods>
-          <include name="verfyValidLogin"/>
+          <include name="quitb"/>
           <include name="setup"/>
         </methods>
       </class> <!-- com.orange_hrms.TestLoginPage -->

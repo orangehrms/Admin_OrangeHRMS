@@ -1,37 +1,43 @@
 package com.orange_hrms;
-
+import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.PageFactory;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
-
+import com.orange_hrms.utils.Log4jConfig;
 import com.page_opjects.LoginPage;
 
 public class TestLoginPage {
-	WebDriver driver;
 	
-/*	@BeforeTest
-	public void setup(){
-		OrangeSetupPage.setup(driver);
+	WebDriver driver;
+	//LoginPage loginpage = PageFactory.initElements(driver, LoginPage.class);
+	
+	@BeforeTest
+	public void setup() {
+		driver = new FirefoxDriver();
+		driver.manage().window().maximize();
+		driver.navigate().to("http://selle.trials54.orangehrmlive.com/");
 	}
-*/	
-  @Test
-  public void verfyValidLogin() {
-	  WebDriver driver = new FirefoxDriver();
-	  driver.manage().window().maximize();
-	  driver.get("http://selle.trials54.orangehrmlive.com/");
-	  
-	  //OrangeSetupPage.setup(driver);
-	  
-	  LoginPage loginpage = new LoginPage(driver);
-	  loginpage.AdminUserName(driver);
-	  loginpage.AdminPassword(driver);
-	  loginpage.AdminLoginBtn(driver);
-	  
-	  driver.quit();
-  }
-  
-  /*@AfterTest
-	public void quit(){
-		OrangeSetupPage.quit(driver);
-	}*/
+
+	@Test
+	public void verfyValidLogin() {
+		driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
+		LoginPage loginpage = PageFactory.initElements(driver, LoginPage.class);
+		
+		loginpage.AdminUserName("Admin");
+		Log4jConfig.Logg("user name entered");
+		loginpage.AdminPassword("welc0meadm1n");
+		Log4jConfig.Logg("passward entered");
+		loginpage.AdminLoginBtn();
+		Log4jConfig.Logg("click submit button");
+	//	return PageFactory.initElements(driver, HomepageTest.class);
+	}
+
+	@AfterTest
+	public void quitb() {
+		driver.manage().deleteAllCookies();
+		driver.quit();
+	}
 }
