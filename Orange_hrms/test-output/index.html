@@ -179,13 +179,13 @@
                   <div class="stack-trace"><b>"org.openqa.selenium.InvalidSelectorException: The given selector //img[@src=&apos;/webres_5807100ccf9d88.89058111/themes/default/images/login/logo.png&apos; is either invalid or does not result in a WebElement. The following error occurred:
 InvalidSelectorError: Unable to locate an element with the xpath expression //img[@src=&apos;/webres_5807100ccf9d88.89058111/themes/default/images/login/logo.png&apos; because of the following error:
 SyntaxError: The expression is not a legal expression.
-Command duration or timeout: 41 milliseconds
+Command duration or timeout: 31 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
 Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
 System info: host: &apos;srinivas&apos;, ip: &apos;192.168.70.1&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_65&apos;
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
 Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=32.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: f579192c-2ad4-469c-b3e2-e052f254d894
+Session ID: 3e039f41-8ce5-4861-8b40-101ff15b6bfa
 *** Element info: {Using=xpath, value=//img[@src=&apos;/webres_5807100ccf9d88.89058111/themes/default/images/login/logo.png&apos;}
 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
@@ -197,8 +197,11 @@ Session ID: f579192c-2ad4-469c-b3e2-e052f254d894
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:59)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:37)
 	at com.sun.proxy.$Proxy8.isDisplayed(Unknown Source)
-	at com.page_opjects.HomePage.Logo(HomePage.java:50)
+	at com.page_objects.HomePage.Logo(HomePage.java:50)
 	at com.orange_hrms.TestHomePage.verifyLogo(TestHomePage.java:39)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
 Caused by: org.openqa.selenium.InvalidSelectorException: The given selector //img[@src=&apos;/webres_5807100ccf9d88.89058111/themes/default/images/login/logo.png&apos; is either invalid or does not result in a WebElement. The following error occurred:
 InvalidSelectorError: Unable to locate an element with the xpath expression //img[@src=&apos;/webres_5807100ccf9d88.89058111/themes/default/images/login/logo.png&apos; because of the following error:
 SyntaxError: The expression is not a legal expression.
@@ -206,22 +209,22 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
 System info: host: &apos;srinivas&apos;, ip: &apos;192.168.70.1&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_65&apos;
 Driver info: driver.version: unknown
-	at &lt;anonymous class&gt;.FirefoxDriver.annotateInvalidSelectorError_(file:///C:/WINDOWS/TEMP/anonymous7879397725415042978webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10245)
-	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/WINDOWS/TEMP/anonymous7879397725415042978webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10276)
-	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElement(file:///C:/WINDOWS/TEMP/anonymous7879397725415042978webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10280)
-	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_/h(file:///C:/WINDOWS/TEMP/anonymous7879397725415042978webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12274)
-	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_(file:///C:/WINDOWS/TEMP/anonymous7879397725415042978webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12279)
-	at &lt;anonymous class&gt;.DelayedCommand.prototype.execute/&lt;(file:///C:/WINDOWS/TEMP/anonymous7879397725415042978webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12221)
-... Removed 28 stack frames<br/> org.openqa.selenium.InvalidSelectorException: The given selector //img[@src=&apos;/webres_5807100ccf9d88.89058111/themes/default/images/login/logo.png&apos; is either invalid or does not result in a WebElement. The following error occurred:
+	at &lt;anonymous class&gt;.FirefoxDriver.annotateInvalidSelectorError_(file:///C:/WINDOWS/TEMP/anonymous484427687973673766webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10245)
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/WINDOWS/TEMP/anonymous484427687973673766webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10276)
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElement(file:///C:/WINDOWS/TEMP/anonymous484427687973673766webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10280)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_/h(file:///C:/WINDOWS/TEMP/anonymous484427687973673766webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12274)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_(file:///C:/WINDOWS/TEMP/anonymous484427687973673766webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12279)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.execute/&lt;(file:///C:/WINDOWS/TEMP/anonymous484427687973673766webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12221)
+... Removed 14 stack frames<br/> org.openqa.selenium.InvalidSelectorException: The given selector //img[@src=&apos;/webres_5807100ccf9d88.89058111/themes/default/images/login/logo.png&apos; is either invalid or does not result in a WebElement. The following error occurred:
 InvalidSelectorError: Unable to locate an element with the xpath expression //img[@src=&apos;/webres_5807100ccf9d88.89058111/themes/default/images/login/logo.png&apos; because of the following error:
 SyntaxError: The expression is not a legal expression.
-Command duration or timeout: 41 milliseconds
+Command duration or timeout: 31 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
 Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
 System info: host: &apos;srinivas&apos;, ip: &apos;192.168.70.1&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_65&apos;
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
 Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=32.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: f579192c-2ad4-469c-b3e2-e052f254d894
+Session ID: 3e039f41-8ce5-4861-8b40-101ff15b6bfa
 *** Element info: {Using=xpath, value=//img[@src=&apos;/webres_5807100ccf9d88.89058111/themes/default/images/login/logo.png&apos;}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -237,7 +240,7 @@ Session ID: f579192c-2ad4-469c-b3e2-e052f254d894
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:59)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:37)
 	at com.sun.proxy.$Proxy8.isDisplayed(Unknown Source)
-	at com.page_opjects.HomePage.Logo(HomePage.java:50)
+	at com.page_objects.HomePage.Logo(HomePage.java:50)
 	at com.orange_hrms.TestHomePage.verifyLogo(TestHomePage.java:39)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -249,20 +252,9 @@ Session ID: f579192c-2ad4-469c-b3e2-e052f254d894
 	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:152)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
 Caused by: org.openqa.selenium.InvalidSelectorException: The given selector //img[@src=&apos;/webres_5807100ccf9d88.89058111/themes/default/images/login/logo.png&apos; is either invalid or does not result in a WebElement. The following error occurred:
 InvalidSelectorError: Unable to locate an element with the xpath expression //img[@src=&apos;/webres_5807100ccf9d88.89058111/themes/default/images/login/logo.png&apos; because of the following error:
 SyntaxError: The expression is not a legal expression.
@@ -270,13 +262,13 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
 System info: host: &apos;srinivas&apos;, ip: &apos;192.168.70.1&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_65&apos;
 Driver info: driver.version: unknown
-	at &lt;anonymous class&gt;.FirefoxDriver.annotateInvalidSelectorError_(file:///C:/WINDOWS/TEMP/anonymous7879397725415042978webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10245)
-	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/WINDOWS/TEMP/anonymous7879397725415042978webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10276)
-	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElement(file:///C:/WINDOWS/TEMP/anonymous7879397725415042978webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10280)
-	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_/h(file:///C:/WINDOWS/TEMP/anonymous7879397725415042978webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12274)
-	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_(file:///C:/WINDOWS/TEMP/anonymous7879397725415042978webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12279)
-	at &lt;anonymous class&gt;.DelayedCommand.prototype.execute/&lt;(file:///C:/WINDOWS/TEMP/anonymous7879397725415042978webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12221)
-"</b><br>sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br>sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)<br>sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)<br>java.lang.reflect.Constructor.newInstance(Constructor.java:422)<br>org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)<br>org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)<br>org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)<br>org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)<br>org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:449)<br>org.openqa.selenium.By$ByXPath.findElement(By.java:357)<br>org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)<br>org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:59)<br>org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:37)<br>com.sun.proxy.$Proxy8.isDisplayed(Unknown Source)<br>com.page_opjects.HomePage.Logo(HomePage.java:50)<br>com.orange_hrms.TestHomePage.verifyLogo(TestHomePage.java:39)<br>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br>sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br>sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br>java.lang.reflect.Method.invoke(Method.java:497)<br>org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)<br>org.testng.internal.Invoker.invokeMethod(Invoker.java:714)<br>org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)<br>org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)<br>org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)<br>org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)<br>org.testng.TestRunner.privateRun(TestRunner.java:767)<br>org.testng.TestRunner.run(TestRunner.java:617)<br>org.testng.SuiteRunner.runTest(SuiteRunner.java:334)<br>org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)<br>org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)<br>org.testng.SuiteRunner.run(SuiteRunner.java:240)<br>org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br>org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)<br>org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)<br>org.testng.TestNG.runSuitesLocally(TestNG.java:1123)<br>org.testng.TestNG.run(TestNG.java:1031)<br>org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)<br>org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:152)<br>org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)<br>
+	at &lt;anonymous class&gt;.FirefoxDriver.annotateInvalidSelectorError_(file:///C:/WINDOWS/TEMP/anonymous484427687973673766webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10245)
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/WINDOWS/TEMP/anonymous484427687973673766webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10276)
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElement(file:///C:/WINDOWS/TEMP/anonymous484427687973673766webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10280)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_/h(file:///C:/WINDOWS/TEMP/anonymous484427687973673766webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12274)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_(file:///C:/WINDOWS/TEMP/anonymous484427687973673766webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12279)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.execute/&lt;(file:///C:/WINDOWS/TEMP/anonymous484427687973673766webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12221)
+"</b><br>sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br>sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)<br>sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)<br>java.lang.reflect.Constructor.newInstance(Constructor.java:422)<br>org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)<br>org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)<br>org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)<br>org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)<br>org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:449)<br>org.openqa.selenium.By$ByXPath.findElement(By.java:357)<br>org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)<br>org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:59)<br>org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:37)<br>com.sun.proxy.$Proxy8.isDisplayed(Unknown Source)<br>com.page_objects.HomePage.Logo(HomePage.java:50)<br>com.orange_hrms.TestHomePage.verifyLogo(TestHomePage.java:39)<br>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br>sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br>sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br>java.lang.reflect.Method.invoke(Method.java:497)<br>org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)<br>org.testng.internal.Invoker.invokeMethod(Invoker.java:714)<br>org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)<br>org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)<br>org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)<br>org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)<br>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)<br>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)<br>java.lang.Thread.run(Thread.java:745)<br>
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -363,9 +355,10 @@ Driver info: driver.version: unknown
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite name=&quot;Orange_hrms_Suite&quot;&gt;
+&lt;suite thread-count=&quot;2&quot; name=&quot;Orange_hrms_Suite&quot; parallel=&quot;classes&quot;&gt;
   &lt;listeners&gt;
     &lt;listener class-name=&quot;com.orange_hrms.utils.Listener&quot;/&gt;
+    &lt;listener class-name=&quot;org.uncommons.reportng.JUnitXMLReporter&quot;/&gt;
   &lt;/listeners&gt;
   &lt;test name=&quot;Orange_hrms_Test&quot;&gt;
     &lt;classes&gt;
@@ -414,27 +407,27 @@ data.addRows(9);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'verfyValidLogin')
 data.setCell(0, 2, 'com.orange_hrms.TestLoginPage')
-data.setCell(0, 3, 7331);
+data.setCell(0, 3, 6323);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'verifyHRMSHomePage')
 data.setCell(1, 2, 'com.orange_hrms.TestHomePage')
-data.setCell(1, 3, 714);
+data.setCell(1, 3, 413);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'verifyLoginImmage')
 data.setCell(2, 2, 'com.orange_hrms.TestHomePage')
-data.setCell(2, 3, 710);
+data.setCell(2, 3, 299);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'verifyLinkText')
 data.setCell(3, 2, 'com.orange_hrms.TestHomePage')
-data.setCell(3, 3, 395);
+data.setCell(3, 3, 189);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'verifyLinkedinIcon')
 data.setCell(4, 2, 'com.orange_hrms.TestHomePage')
-data.setCell(4, 3, 390);
+data.setCell(4, 3, 173);
 data.setCell(5, 0, 5)
 data.setCell(5, 1, 'verifyFacebookIcon')
 data.setCell(5, 2, 'com.orange_hrms.TestHomePage')
-data.setCell(5, 3, 217);
+data.setCell(5, 3, 169);
 data.setCell(6, 0, 6)
 data.setCell(6, 1, 'verifyYouTubeIcon')
 data.setCell(6, 2, 'com.orange_hrms.TestHomePage')
@@ -442,16 +435,16 @@ data.setCell(6, 3, 168);
 data.setCell(7, 0, 7)
 data.setCell(7, 1, 'verifyTwitIcon')
 data.setCell(7, 2, 'com.orange_hrms.TestHomePage')
-data.setCell(7, 3, 155);
+data.setCell(7, 3, 163);
 data.setCell(8, 0, 8)
 data.setCell(8, 1, 'verifyLogo')
 data.setCell(8, 2, 'com.orange_hrms.TestHomePage')
-data.setCell(8, 3, 107);
+data.setCell(8, 3, 78);
 window.suiteTableData['Orange_hrms_Suite']= { tableData: data, tableDiv: 'times-div-Orange_hrms_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 10 seconds</span>
+              <span class="suite-total-time">Total running time: 7 seconds</span>
               <div id="times-div-Orange_hrms_Suite">
               </div> <!-- times-div-Orange_hrms_Suite -->
             </div> <!-- times-div -->
@@ -463,31 +456,7 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="reporter-method-div">
-              <span class="reporter-method-name">verifyLinkText</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">onTestSuccess execute null</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">verifyLoginImmage</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">onTestSuccess execute null</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">verifyFacebookIcon</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">onTestSuccess execute null</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">verifyHRMSHomePage</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">onTestSuccess execute null</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">verifyTwitIcon</span>
+              <span class="reporter-method-name">verifyLinkedinIcon</span>
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output">onTestSuccess execute null</span>
               </div> <!-- reporter-method-output-div -->
@@ -499,13 +468,37 @@ return data;
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
-              <span class="reporter-method-name">verifyLinkedinIcon</span>
+              <span class="reporter-method-name">verifyLinkText</span>
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output">onTestSuccess execute null</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
               <span class="reporter-method-name">verfyValidLogin</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">onTestSuccess execute null</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyHRMSHomePage</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">onTestSuccess execute null</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyLoginImmage</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">onTestSuccess execute null</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyTwitIcon</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">onTestSuccess execute null</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyFacebookIcon</span>
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output">onTestSuccess execute null</span>
               </div> <!-- reporter-method-output-div -->
@@ -541,56 +534,62 @@ return data;
               <div class="chronological-class-name">com.orange_hrms.TestHomePage</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup</span>
-                <span class="method-start">20047 ms</span>
+                <span class="method-start">27038 ms</span>
               </div> <!-- configuration-class before -->
-              <div class="test-method">
-                <span class="method-name">verifyHRMSHomePage</span>
-                <span class="method-start">36322 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">verifyLogo</span>
-                <span class="method-start">37091 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">verifyLoginImmage</span>
-                <span class="method-start">37359 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">verifyLinkText</span>
-                <span class="method-start">38155 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">verifyLinkedinIcon</span>
-                <span class="method-start">38892 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">verifyTwitIcon</span>
-                <span class="method-start">39341 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">verifyFacebookIcon</span>
-                <span class="method-start">39561 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">verifyYouTubeIcon</span>
-                <span class="method-start">39832 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-class after">
-                <span class="method-name">quitb</span>
-                <span class="method-start">40077 ms</span>
-              </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.orange_hrms.TestLoginPage</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">verfyValidLogin</span>
-                <span class="method-start">40409 ms</span>
+                <span class="method-start">27045 ms</span>
               </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.orange_hrms.TestHomePage</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyHRMSHomePage</span>
+                <span class="method-start">51835 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyLogo</span>
+                <span class="method-start">52323 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginImmage</span>
+                <span class="method-start">52628 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyLinkText</span>
+                <span class="method-start">52998 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyLinkedinIcon</span>
+                <span class="method-start">53279 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyTwitIcon</span>
+                <span class="method-start">53523 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyFacebookIcon</span>
+                <span class="method-start">53762 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyYouTubeIcon</span>
+                <span class="method-start">54008 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">quitb</span>
+                <span class="method-start">54253 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.orange_hrms.TestLoginPage</div> <!-- chronological-class-name -->
               <div class="configuration-test after">
                 <span class="method-name">quitb</span>
-                <span class="method-start">47803 ms</span>
+                <span class="method-start">54605 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

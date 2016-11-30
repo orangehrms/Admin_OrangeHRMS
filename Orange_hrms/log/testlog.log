@@ -653,3 +653,215 @@
 2016-11-30 15:36:16,872 - Log4jConfig -INFO - click submit button
 2016-11-30 15:36:16,906 - Log4jConfig -INFO - verfyValidLogin---Test Success
 2016-11-30 15:36:16,942 - Log4jConfig -INFO - 1---getStatus Test 
+2016-11-30 15:41:18,210 - Log4jConfig -INFO - onTest Start--verifyHRMSHomePage
+2016-11-30 15:41:18,388 - Log4jConfig -INFO - Login OrangeHRMS homepage
+2016-11-30 15:41:18,422 - Log4jConfig -INFO - verifyHRMSHomePage---Test Success
+2016-11-30 15:41:18,456 - Log4jConfig -INFO - 1---getStatus Test 
+2016-11-30 15:41:18,526 - Log4jConfig -INFO - onTest Start--verifyLogo
+2016-11-30 15:41:18,784 - Log4jConfig -INFO - verifyLogo---Test Failure
+2016-11-30 15:41:18,822 - Log4jConfig -INFO - null---Test Failure
+2016-11-30 15:41:18,854 - Log4jConfig -INFO - [TestClass name=class com.orange_hrms.TestHomePage]---Test Failure
+2016-11-30 15:41:18,885 - Log4jConfig -INFO - []---Atribute Test Failure
+2016-11-30 15:41:18,920 - Log4jConfig -INFO - 2---getStatus Test Failure
+2016-11-30 15:41:18,952 - Log4jConfig -INFO - onTest Start--verifyLoginImmage
+2016-11-30 15:41:29,127 - Log4jConfig -INFO - verifyLoginImmage---Test Failure
+2016-11-30 15:41:29,159 - Log4jConfig -INFO - null---Test Failure
+2016-11-30 15:41:29,190 - Log4jConfig -INFO - [TestClass name=class com.orange_hrms.TestHomePage]---Test Failure
+2016-11-30 15:41:29,223 - Log4jConfig -INFO - []---Atribute Test Failure
+2016-11-30 15:41:29,255 - Log4jConfig -INFO - 2---getStatus Test Failure
+2016-11-30 15:41:29,292 - Log4jConfig -INFO - onTest Start--verifyLinkText
+2016-11-30 15:41:39,457 - Log4jConfig -INFO - verifyLinkText---Test Failure
+2016-11-30 15:41:39,501 - Log4jConfig -INFO - null---Test Failure
+2016-11-30 15:41:39,532 - Log4jConfig -INFO - [TestClass name=class com.orange_hrms.TestHomePage]---Test Failure
+2016-11-30 15:41:39,563 - Log4jConfig -INFO - []---Atribute Test Failure
+2016-11-30 15:41:39,594 - Log4jConfig -INFO - 2---getStatus Test Failure
+2016-11-30 15:41:39,629 - Log4jConfig -INFO - onTest Start--verifyLinkedinIcon
+2016-11-30 15:41:49,793 - Log4jConfig -INFO - verifyLinkedinIcon---Test Failure
+2016-11-30 15:41:49,825 - Log4jConfig -INFO - null---Test Failure
+2016-11-30 15:41:49,857 - Log4jConfig -INFO - [TestClass name=class com.orange_hrms.TestHomePage]---Test Failure
+2016-11-30 15:41:49,905 - Log4jConfig -INFO - []---Atribute Test Failure
+2016-11-30 15:41:49,947 - Log4jConfig -INFO - 2---getStatus Test Failure
+2016-11-30 15:41:49,992 - Log4jConfig -INFO - onTest Start--verifyTwitIcon
+2016-11-30 15:42:00,139 - Log4jConfig -INFO - verifyTwitIcon---Test Failure
+2016-11-30 15:42:00,182 - Log4jConfig -INFO - null---Test Failure
+2016-11-30 15:42:00,222 - Log4jConfig -INFO - [TestClass name=class com.orange_hrms.TestHomePage]---Test Failure
+2016-11-30 15:42:00,257 - Log4jConfig -INFO - []---Atribute Test Failure
+2016-11-30 15:42:00,292 - Log4jConfig -INFO - 2---getStatus Test Failure
+2016-11-30 15:42:00,327 - Log4jConfig -INFO - onTest Start--verifyFacebookIcon
+2016-11-30 15:42:10,472 - Log4jConfig -INFO - verifyFacebookIcon---Test Failure
+2016-11-30 15:42:10,505 - Log4jConfig -INFO - null---Test Failure
+2016-11-30 15:42:10,539 - Log4jConfig -INFO - [TestClass name=class com.orange_hrms.TestHomePage]---Test Failure
+2016-11-30 15:42:10,594 - Log4jConfig -INFO - []---Atribute Test Failure
+2016-11-30 15:42:10,640 - Log4jConfig -INFO - 2---getStatus Test Failure
+2016-11-30 15:42:10,671 - Log4jConfig -INFO - onTest Start--verifyYouTubeIcon
+2016-11-30 15:42:20,817 - Log4jConfig -INFO - verifyYouTubeIcon---Test Failure
+2016-11-30 15:42:20,850 - Log4jConfig -INFO - null---Test Failure
+2016-11-30 15:42:20,882 - Log4jConfig -INFO - [TestClass name=class com.orange_hrms.TestHomePage]---Test Failure
+2016-11-30 15:42:20,913 - Log4jConfig -INFO - []---Atribute Test Failure
+2016-11-30 15:42:20,952 - Log4jConfig -INFO - 2---getStatus Test Failure
+2016-11-30 15:42:21,316 - Log4jConfig -INFO - onTest Start--verfyValidLogin
+2016-11-30 15:42:36,617 - Log4jConfig -INFO - verfyValidLogin---Test Failure
+2016-11-30 15:42:36,657 - Log4jConfig -INFO - null---Test Failure
+2016-11-30 15:42:36,693 - Log4jConfig -INFO - [TestClass name=class com.orange_hrms.TestLoginPage]---Test Failure
+2016-11-30 15:42:36,727 - Log4jConfig -INFO - []---Atribute Test Failure
+2016-11-30 15:42:36,763 - Log4jConfig -INFO - 2---getStatus Test Failure
+2016-11-30 15:50:39,323 - Log4jConfig -INFO - onTest Start--verfyValidLogin
+2016-11-30 15:50:40,944 - Log4jConfig -INFO - user name entered
+2016-11-30 15:50:42,058 - Log4jConfig -INFO - passward entered
+2016-11-30 15:50:45,373 - Log4jConfig -INFO - click submit button
+2016-11-30 15:50:45,413 - Log4jConfig -INFO - verfyValidLogin---Test Success
+2016-11-30 15:50:45,452 - Log4jConfig -INFO - 1---getStatus Test 
+2016-11-30 15:50:57,921 - Log4jConfig -INFO - onTest Start--verifyHRMSHomePage
+2016-11-30 15:50:58,113 - Log4jConfig -INFO - Login OrangeHRMS homepage
+2016-11-30 15:50:58,153 - Log4jConfig -INFO - verifyHRMSHomePage---Test Success
+2016-11-30 15:50:58,185 - Log4jConfig -INFO - 1---getStatus Test 
+2016-11-30 15:50:58,220 - Log4jConfig -INFO - onTest Start--verifyLogo
+2016-11-30 15:50:58,400 - Log4jConfig -INFO - verifyLogo---Test Failure
+2016-11-30 15:50:58,433 - Log4jConfig -INFO - null---Test Failure
+2016-11-30 15:50:58,464 - Log4jConfig -INFO - [TestClass name=class com.orange_hrms.TestHomePage]---Test Failure
+2016-11-30 15:50:58,500 - Log4jConfig -INFO - []---Atribute Test Failure
+2016-11-30 15:50:58,538 - Log4jConfig -INFO - 2---getStatus Test Failure
+2016-11-30 15:50:58,575 - Log4jConfig -INFO - onTest Start--verifyLoginImmage
+2016-11-30 15:50:58,769 - Log4jConfig -INFO - HRMS Login Immage is Displayed
+2016-11-30 15:50:58,807 - Log4jConfig -INFO - verifyLoginImmage---Test Success
+2016-11-30 15:50:58,850 - Log4jConfig -INFO - 1---getStatus Test 
+2016-11-30 15:50:58,883 - Log4jConfig -INFO - onTest Start--verifyLinkText
+2016-11-30 15:50:59,029 - Log4jConfig -INFO - HRMS LinkText is Displayed
+2016-11-30 15:50:59,075 - Log4jConfig -INFO - verifyLinkText---Test Success
+2016-11-30 15:50:59,114 - Log4jConfig -INFO - 1---getStatus Test 
+2016-11-30 15:50:59,149 - Log4jConfig -INFO - onTest Start--verifyLinkedinIcon
+2016-11-30 15:50:59,370 - Log4jConfig -INFO - Linkedin Glyph Icon is Displayed
+2016-11-30 15:50:59,415 - Log4jConfig -INFO - verifyLinkedinIcon---Test Success
+2016-11-30 15:50:59,454 - Log4jConfig -INFO - 1---getStatus Test 
+2016-11-30 15:50:59,532 - Log4jConfig -INFO - onTest Start--verifyTwitIcon
+2016-11-30 15:50:59,709 - Log4jConfig -INFO - TwitGlyphIcon is Displayed
+2016-11-30 15:50:59,754 - Log4jConfig -INFO - verifyTwitIcon---Test Success
+2016-11-30 15:50:59,807 - Log4jConfig -INFO - 1---getStatus Test 
+2016-11-30 15:50:59,843 - Log4jConfig -INFO - onTest Start--verifyFacebookIcon
+2016-11-30 15:50:59,972 - Log4jConfig -INFO - FacebookGlyphIcon is Displayed
+2016-11-30 15:51:00,009 - Log4jConfig -INFO - verifyFacebookIcon---Test Success
+2016-11-30 15:51:00,042 - Log4jConfig -INFO - 1---getStatus Test 
+2016-11-30 15:51:00,079 - Log4jConfig -INFO - onTest Start--verifyYouTubeIcon
+2016-11-30 15:51:00,301 - Log4jConfig -INFO - YtubeGlyphIcon is Displayed
+2016-11-30 15:51:00,346 - Log4jConfig -INFO - verifyYouTubeIcon---Test Success
+2016-11-30 15:51:00,380 - Log4jConfig -INFO - 1---getStatus Test 
+2016-11-30 15:52:42,262 - Log4jConfig -INFO - onTest Start--verfyValidLogin
+2016-11-30 15:52:42,640 - Log4jConfig -INFO - user name entered
+2016-11-30 15:52:43,649 - Log4jConfig -INFO - passward entered
+2016-11-30 15:52:48,448 - Log4jConfig -INFO - click submit button
+2016-11-30 15:52:48,504 - Log4jConfig -INFO - verfyValidLogin---Test Success
+2016-11-30 15:52:48,560 - Log4jConfig -INFO - 1---getStatus Test 
+2016-11-30 15:52:59,948 - Log4jConfig -INFO - onTest Start--verifyHRMSHomePage
+2016-11-30 15:53:00,101 - Log4jConfig -INFO - Login OrangeHRMS homepage
+2016-11-30 15:53:00,149 - Log4jConfig -INFO - verifyHRMSHomePage---Test Success
+2016-11-30 15:53:00,183 - Log4jConfig -INFO - 1---getStatus Test 
+2016-11-30 15:53:00,225 - Log4jConfig -INFO - onTest Start--verifyLogo
+2016-11-30 15:53:00,339 - Log4jConfig -INFO - verifyLogo---Test Failure
+2016-11-30 15:53:00,376 - Log4jConfig -INFO - null---Test Failure
+2016-11-30 15:53:00,435 - Log4jConfig -INFO - [TestClass name=class com.orange_hrms.TestHomePage]---Test Failure
+2016-11-30 15:53:00,518 - Log4jConfig -INFO - []---Atribute Test Failure
+2016-11-30 15:53:00,591 - Log4jConfig -INFO - 2---getStatus Test Failure
+2016-11-30 15:53:00,797 - Log4jConfig -INFO - onTest Start--verifyLoginImmage
+2016-11-30 15:53:01,193 - Log4jConfig -INFO - HRMS Login Immage is Displayed
+2016-11-30 15:53:01,269 - Log4jConfig -INFO - verifyLoginImmage---Test Success
+2016-11-30 15:53:01,347 - Log4jConfig -INFO - 1---getStatus Test 
+2016-11-30 15:53:01,432 - Log4jConfig -INFO - onTest Start--verifyLinkText
+2016-11-30 15:53:01,585 - Log4jConfig -INFO - HRMS LinkText is Displayed
+2016-11-30 15:53:01,627 - Log4jConfig -INFO - verifyLinkText---Test Success
+2016-11-30 15:53:01,662 - Log4jConfig -INFO - 1---getStatus Test 
+2016-11-30 15:53:01,698 - Log4jConfig -INFO - onTest Start--verifyLinkedinIcon
+2016-11-30 15:53:01,829 - Log4jConfig -INFO - Linkedin Glyph Icon is Displayed
+2016-11-30 15:53:01,867 - Log4jConfig -INFO - verifyLinkedinIcon---Test Success
+2016-11-30 15:53:01,902 - Log4jConfig -INFO - 1---getStatus Test 
+2016-11-30 15:53:01,937 - Log4jConfig -INFO - onTest Start--verifyTwitIcon
+2016-11-30 15:53:02,164 - Log4jConfig -INFO - TwitGlyphIcon is Displayed
+2016-11-30 15:53:02,200 - Log4jConfig -INFO - verifyTwitIcon---Test Success
+2016-11-30 15:53:02,235 - Log4jConfig -INFO - 1---getStatus Test 
+2016-11-30 15:53:02,270 - Log4jConfig -INFO - onTest Start--verifyFacebookIcon
+2016-11-30 15:53:02,507 - Log4jConfig -INFO - FacebookGlyphIcon is Displayed
+2016-11-30 15:53:02,567 - Log4jConfig -INFO - verifyFacebookIcon---Test Success
+2016-11-30 15:53:02,780 - Log4jConfig -INFO - 1---getStatus Test 
+2016-11-30 15:53:03,047 - Log4jConfig -INFO - onTest Start--verifyYouTubeIcon
+2016-11-30 15:53:03,570 - Log4jConfig -INFO - YtubeGlyphIcon is Displayed
+2016-11-30 15:53:03,633 - Log4jConfig -INFO - verifyYouTubeIcon---Test Success
+2016-11-30 15:53:03,678 - Log4jConfig -INFO - 1---getStatus Test 
+2016-11-30 16:11:46,663 - Log4jConfig -INFO - onTest Start--verfyValidLogin
+2016-11-30 16:11:47,058 - Log4jConfig -INFO - user name entered
+2016-11-30 16:11:48,247 - Log4jConfig -INFO - passward entered
+2016-11-30 16:11:52,745 - Log4jConfig -INFO - click submit button
+2016-11-30 16:11:53,393 - Log4jConfig -INFO - verfyValidLogin---Test Success
+2016-11-30 16:11:53,716 - Log4jConfig -INFO - 1---getStatus Test 
+2016-11-30 16:12:11,477 - Log4jConfig -INFO - onTest Start--verifyHRMSHomePage
+2016-11-30 16:12:11,626 - Log4jConfig -INFO - Login OrangeHRMS homepage
+2016-11-30 16:12:11,665 - Log4jConfig -INFO - verifyHRMSHomePage---Test Success
+2016-11-30 16:12:11,701 - Log4jConfig -INFO - 1---getStatus Test 
+2016-11-30 16:12:11,739 - Log4jConfig -INFO - onTest Start--verifyLogo
+2016-11-30 16:12:11,837 - Log4jConfig -INFO - verifyLogo---Test Failure
+2016-11-30 16:12:11,873 - Log4jConfig -INFO - null---Test Failure
+2016-11-30 16:12:11,909 - Log4jConfig -INFO - [TestClass name=class com.orange_hrms.TestHomePage]---Test Failure
+2016-11-30 16:12:11,966 - Log4jConfig -INFO - []---Atribute Test Failure
+2016-11-30 16:12:12,005 - Log4jConfig -INFO - 2---getStatus Test Failure
+2016-11-30 16:12:12,045 - Log4jConfig -INFO - onTest Start--verifyLoginImmage
+2016-11-30 16:12:12,305 - Log4jConfig -INFO - HRMS Login Immage is Displayed
+2016-11-30 16:12:12,343 - Log4jConfig -INFO - verifyLoginImmage---Test Success
+2016-11-30 16:12:12,376 - Log4jConfig -INFO - 1---getStatus Test 
+2016-11-30 16:12:12,417 - Log4jConfig -INFO - onTest Start--verifyLinkText
+2016-11-30 16:12:12,565 - Log4jConfig -INFO - HRMS LinkText is Displayed
+2016-11-30 16:12:12,620 - Log4jConfig -INFO - verifyLinkText---Test Success
+2016-11-30 16:12:12,657 - Log4jConfig -INFO - 1---getStatus Test 
+2016-11-30 16:12:12,696 - Log4jConfig -INFO - onTest Start--verifyLinkedinIcon
+2016-11-30 16:12:12,830 - Log4jConfig -INFO - Linkedin Glyph Icon is Displayed
+2016-11-30 16:12:12,868 - Log4jConfig -INFO - verifyLinkedinIcon---Test Success
+2016-11-30 16:12:12,902 - Log4jConfig -INFO - 1---getStatus Test 
+2016-11-30 16:12:12,937 - Log4jConfig -INFO - onTest Start--verifyTwitIcon
+2016-11-30 16:12:13,064 - Log4jConfig -INFO - TwitGlyphIcon is Displayed
+2016-11-30 16:12:13,108 - Log4jConfig -INFO - verifyTwitIcon---Test Success
+2016-11-30 16:12:13,140 - Log4jConfig -INFO - 1---getStatus Test 
+2016-11-30 16:12:13,178 - Log4jConfig -INFO - onTest Start--verifyFacebookIcon
+2016-11-30 16:12:13,310 - Log4jConfig -INFO - FacebookGlyphIcon is Displayed
+2016-11-30 16:12:13,350 - Log4jConfig -INFO - verifyFacebookIcon---Test Success
+2016-11-30 16:12:13,386 - Log4jConfig -INFO - 1---getStatus Test 
+2016-11-30 16:12:13,421 - Log4jConfig -INFO - onTest Start--verifyYouTubeIcon
+2016-11-30 16:12:13,554 - Log4jConfig -INFO - YtubeGlyphIcon is Displayed
+2016-11-30 16:12:13,593 - Log4jConfig -INFO - verifyYouTubeIcon---Test Success
+2016-11-30 16:12:13,631 - Log4jConfig -INFO - 1---getStatus Test 
+2016-11-30 16:17:22,963 - Log4jConfig -INFO - onTest Start--verfyValidLogin
+2016-11-30 16:17:23,740 - Log4jConfig -INFO - user name entered
+2016-11-30 16:17:26,484 - Log4jConfig -INFO - passward entered
+2016-11-30 16:17:30,740 - Log4jConfig -INFO - click submit button
+2016-11-30 16:17:30,810 - Log4jConfig -INFO - verfyValidLogin---Test Success
+2016-11-30 16:17:30,866 - Log4jConfig -INFO - 1---getStatus Test 
+2016-11-30 16:17:43,370 - Log4jConfig -INFO - onTest Start--verifyHRMSHomePage
+2016-11-30 16:17:43,555 - Log4jConfig -INFO - Login OrangeHRMS homepage
+2016-11-30 16:17:43,595 - Log4jConfig -INFO - verifyHRMSHomePage---Test Success
+2016-11-30 16:17:43,629 - Log4jConfig -INFO - 1---getStatus Test 
+2016-11-30 16:17:43,666 - Log4jConfig -INFO - onTest Start--verifyLogo
+2016-11-30 16:17:43,765 - Log4jConfig -INFO - verifyLogo---Test Failure
+2016-11-30 16:17:43,800 - Log4jConfig -INFO - null---Test Failure
+2016-11-30 16:17:43,835 - Log4jConfig -INFO - [TestClass name=class com.orange_hrms.TestHomePage]---Test Failure
+2016-11-30 16:17:43,874 - Log4jConfig -INFO - []---Atribute Test Failure
+2016-11-30 16:17:43,914 - Log4jConfig -INFO - 2---getStatus Test Failure
+2016-11-30 16:17:43,957 - Log4jConfig -INFO - onTest Start--verifyLoginImmage
+2016-11-30 16:17:44,159 - Log4jConfig -INFO - HRMS Login Immage is Displayed
+2016-11-30 16:17:44,199 - Log4jConfig -INFO - verifyLoginImmage---Test Success
+2016-11-30 16:17:44,232 - Log4jConfig -INFO - 1---getStatus Test 
+2016-11-30 16:17:44,313 - Log4jConfig -INFO - onTest Start--verifyLinkText
+2016-11-30 16:17:44,537 - Log4jConfig -INFO - HRMS LinkText is Displayed
+2016-11-30 16:17:44,586 - Log4jConfig -INFO - verifyLinkText---Test Success
+2016-11-30 16:17:44,624 - Log4jConfig -INFO - 1---getStatus Test 
+2016-11-30 16:17:44,662 - Log4jConfig -INFO - onTest Start--verifyLinkedinIcon
+2016-11-30 16:17:44,826 - Log4jConfig -INFO - Linkedin Glyph Icon is Displayed
+2016-11-30 16:17:44,867 - Log4jConfig -INFO - verifyLinkedinIcon---Test Success
+2016-11-30 16:17:44,902 - Log4jConfig -INFO - 1---getStatus Test 
+2016-11-30 16:17:44,941 - Log4jConfig -INFO - onTest Start--verifyTwitIcon
+2016-11-30 16:17:45,095 - Log4jConfig -INFO - TwitGlyphIcon is Displayed
+2016-11-30 16:17:45,140 - Log4jConfig -INFO - verifyTwitIcon---Test Success
+2016-11-30 16:17:45,176 - Log4jConfig -INFO - 1---getStatus Test 
+2016-11-30 16:17:45,214 - Log4jConfig -INFO - onTest Start--verifyFacebookIcon
+2016-11-30 16:17:45,347 - Log4jConfig -INFO - FacebookGlyphIcon is Displayed
+2016-11-30 16:17:45,387 - Log4jConfig -INFO - verifyFacebookIcon---Test Success
+2016-11-30 16:17:45,421 - Log4jConfig -INFO - 1---getStatus Test 
+2016-11-30 16:17:45,457 - Log4jConfig -INFO - onTest Start--verifyYouTubeIcon
+2016-11-30 16:17:45,596 - Log4jConfig -INFO - YtubeGlyphIcon is Displayed
+2016-11-30 16:17:45,637 - Log4jConfig -INFO - verifyYouTubeIcon---Test Success
+2016-11-30 16:17:45,678 - Log4jConfig -INFO - 1---getStatus Test 

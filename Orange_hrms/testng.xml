@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Orange_hrms_Suite">
+<suite name="Orange_hrms_Suite" parallel="classes" thread-count="2">
 
-<listeners> 
-<listener class-name="com.orange_hrms.utils.Listener"></listener>
-</listeners>
+	<listeners>
+		<listener class-name="com.orange_hrms.utils.Listener"></listener>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+	</listeners>
 
-  <test name="Orange_hrms_Test">
-    <classes>
-      <class name="com.orange_hrms.TestHomePage"/>
-      <class name="com.orange_hrms.TestLoginPage"/>
-      
-    </classes>
-    
-  </test> <!-- Orange_hrms_Test -->
+	<test name="Orange_hrms_Test">
+		<classes>
+			<class name="com.orange_hrms.TestHomePage" />
+			<class name="com.orange_hrms.TestLoginPage" />
+
+		</classes>
+
+	</test> <!-- Orange_hrms_Test -->
 </suite> <!-- Orange_hrms_Suite -->
