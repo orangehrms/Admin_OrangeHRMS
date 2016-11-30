@@ -11,7 +11,7 @@ import org.testng.annotations.Test;
 
 import com.orange_hrms.utils.Assertion;
 import com.orange_hrms.utils.Log4jConfig;
-import com.page_opjects.HomePage;
+import com.page_objects.HomePage;
 
 public class TestHomePage {
 

@@ -7,7 +7,7 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 import com.orange_hrms.utils.Log4jConfig;
-import com.page_opjects.LoginPage;
+import com.page_objects.LoginPage;
 
 public class TestLoginPage {
 	

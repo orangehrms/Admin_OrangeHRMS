@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.page_opjects;
+package com.page_objects;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
